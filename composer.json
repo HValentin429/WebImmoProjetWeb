@@ -1,0 +1,20 @@
+{
+    "name": "webdev/web-immo",
+    "type": "project",
+    "autoload": {
+        "psr-4":{
+            "app\\":"app/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "monolog/monolog": "^2.2",
+        "phpmailer/phpmailer": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Valentin heeman",
+            "email": "valentin.heeman@gmail.com"
+        }
+    ]
+}
